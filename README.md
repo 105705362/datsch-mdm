@@ -1,94 +1,46 @@
-![Pimcore - Own the digital World](./doc/img/logo-readme.svg)
-  
-  
-Pimcore Core Framework - Open Source Data & Experience Management Platform: PIM, MDM, CDP, DAM, DXP/CMS & Digital Commerce
+Datsch-MDM 核心框架 - 数据与体验管理平台：PIM、MDM、CDP、DAM、DXP/CMS 和数字商务
 
-[![Packagist](https://img.shields.io/packagist/v/pimcore/pimcore.svg)](https://packagist.org/packages/pimcore/pimcore)
-[![Software License](https://img.shields.io/badge/license-GPLv3-brightgreen.svg?style=flat)](LICENSE.md)
-[![Gitter](https://img.shields.io/badge/gitter-join%20chat-brightgreen.svg?style=flat)](https://gitter.im/pimcore/pimcore)
 
-* 📢 **[We are hiring!](https://pimcore.com/en/careers?utm_source=github&utm_medium=readme-pimcore-pimcore&utm_campaign=careers)** - Join us on our mission!
-* 🌍 [Website](https://pimcore.com/) - Learn more about Pimcore
-* 📖 [Documentation](https://pimcore.com/docs/)
-* 🉐 **Help translate Pimcore!** Start with [Essentials](https://poeditor.com/join/project/VWmZyvFVMH), continue with [Extended](https://poeditor.com/join/project/XliCYYgILb)
-* 👍 Like us on [Facebook](https://www.facebook.com/pimcore), follow us on [LinkedIn](https://www.linkedin.com/company/3505853/) and [Twitter](https://twitter.com/pimcore)
-* 🐞 [Issue Tracker](https://github.com/pimcore/pimcore/issues) - Report bugs or suggest new features
-* 🗨  [Forums](https://github.com/pimcore/pimcore/discussions) - Community support and discussions
-* 👪 [Community Chat](https://gitter.im/pimcore/pimcore) - Gitter
-  
+## 概览
+![技术和架构]
 
-## Contribute  
-**Bug fixes:** please create a pull request including a step by step description to reproduce the problem  
-**Contribute features:** contact the core-team on our [Gitter channel](https://gitter.im/pimcore/pimcore) before you start developing   
-**Security vulnerabilities:** please see our [security policy](https://github.com/pimcore/pimcore/security/policy)
-  
-For details, please have a look at our [contributing guide](CONTRIBUTING.md).
+## 关键优势
+### ⚒ 数据建模和 UI 设计同步进行
+无论是处理非结构化的网页文档还是 MDM/PIM 的结构化数据，您都可以定义 UI 设计（网页文档通过模板，结构化数据通过直观的图形编辑器），Datsch-MDM 知道如何高效地持久化数据，并优化以便快速访问。
 
-## Overview
-![Technology and Architecture](./doc/img/pimcore-technology-architecture.svg)
+### 🎛 适应性强的通用数据框架
+由于框架的方法，Datsch-MDM 非常灵活，能完美适应您的需求。基于著名的 Symfony 框架构建，为您的项目提供了一个坚实且现代的基础。
 
-## Key Benefits and Advantages
-### ⚒ Data Modelling and UI Design at the same Time 
-No matter if you're dealing with unstructured web documents or structured data for MDM/PIM, you define the 
-UI design (web documents by a template and structured data with an intuitive graphical editor), Pimcore knows 
-how to persist the data efficiently and optimized for fast access.
 
-### 🎛 Agnostic and Universal Framework for your Data
-Due to the framework approach, Pimcore is very flexible and adapts perfectly to your needs. Built on top of 
-the well-known Symfony Framework you have a solid and modern foundation for your project. 
+### 💎 在一个平台上整合您的数字世界
+不再需要在 MDM/PIM、电子商务、DAM 和 Web-CMS 之间进行 API、导入/导出和同步操作。一切无缝协作，本地化地实现了 Datsch-MDM 的目标。
 
-### 🚀 Extensible and huge Symfony Community
-Benefit from all existing Symfony Components and Bundles provided by the community or create your own 
-Bundles to extend your Projects with reusable components. 
+### ✨ 现代且直观的 UI
+我们热爱设计高效且优化用户体验的漂亮用户界面，为编辑者提供了一个卓越的使用体验。
 
-### 💎 Your Digital World consolidated in one Platform
-No more API, import/export and synchronization hell between MDM/PIM, E-Commerce, DAM, and your Web-CMS. 
-All is working seamlessly together, natively ... this is what Pimcore is built for. 
+## 预览和演示
+### 数据对象
+![Datsch-MDM 管理界面截图 PIM/MDM]
+根据预定义的数据模型管理任何结构化数据，无论是手动还是通过 API 自动进行。使用类编辑器定义对象的结构和属性。管理任何数据——产品（PIM/MDM）、类别、客户（CDP）、订单（数字商务）、博客文章（DXP/CMS）。数据对象提供了从单一来源管理多输出渠道的结构化数据的可能性。通过集中化数据，Datsch-MDM 的数据对象使您能够在更短的时间内实现更好的数据完整性和数据质量，从而在多个接触点上创建和维护一致的、最新的客户体验。
 
-### ✨️ Modern and Intuitive UI
-We love good-looking user interfaces, designed to be efficient for daily use and optimized for a great
-experience for editors. 
+### 数字资产
+![Datsch-MDM 管理界面截图 DAM]
+资产是 Datsch-MDM 的 DAM 部分。存储、管理和组织图像、视频、PDF、Word/Excel 文档等数字文件。可以在 Datsch-MDM 中直接预览 200 多种文件类型，编辑图片，并为文件添加额外的元数据。图像中的面部识别可用于焦点定位。编辑者只需在系统中维护一个高分辨率版本的文件。Datsch-MDM 可以自动生成各种渠道所需的所有输出格式，例如商务、应用程序、网站。当然，还包括全面的用户管理和版本控制。
 
-## Preview and Demo
-### Data Objects
-![Pimcore Admin Interface Screenshot PIM/MDM](./doc/img/pimcore-screenshot-3.png)
-Manage any structured data based on a predefined data model, either manually or automatically via the APIs. Define the structure and attributes of your objects by using the class editor. Manage any data – products (PIM/MDM), categories, customers (CDP), orders (digital commerce), blog articles (DXP/CMS). Data Objects provide the possibility to manage structured data for multiple output channels from a single source. By centralizing data in one place, Pimcore's data objects enable you to achieve better data completeness and data quality, allowing you to create and maintain a consistent, up-to-date customer experience across multiple touchpoints in less time.
-### Digital Assets
-![Pimcore Admin Interface Screenshot DAM](./doc/img/pimcore-screenshot-2.png)
-Assets are the DAM part of Pimcore. Store, manage and organize digital files such as images, videos, PDFs, Word/Excel documents in a folder structure. Preview 200+ file types directly in Pimcore, edit pictures, and enrich files with additional meta-data. Facial recognition for focal points in images is available. Editors only need to maintain one high-resolution version of a file in the system. Pimcore can automatically generate all required output formats for various channels such as commerce, apps, websites. Of course, including comprehensive user management and version control.
-### Documents
-![Pimcore Admin Interface Screenshot CMS](./doc/img/pimcore-screenshot-1.png)
-The DXP/CMS part of Pimcore for managing unstructured content such as the pages of a website and its navigation. Based on Twig templates, documents render physical HTML/CSS pages and provide the capabilities to manage the presentation of data, exactly how customers will experience it. They can be composed by administrators by arranging predefined layout elements. Pimcore documents provide multilingual and multi-site capabilities for websites, including emails and newsletters. Total frontend flexibility enables a perfect blend of content and commerce. You can also use them to create content for offline channels, such as printed catalogs (web-to-print).
+### 文档
+![Datsch-MDM 管理界面截图 CMS]
+Datsch-MDM 的 DXP/CMS 部分用于管理非结构化内容，例如网站的页面和导航。基于 Twig 模板，文档呈现物理的 HTML/CSS 页面，并提供管理数据呈现的能力，正如客户体验它们的方式一样。管理员可以通过排列预定义的布局元素来组成文档。Datsch-MDM 文档提供多语言和多站点功能，包括电子邮件和新闻通讯。前端灵活性使内容和商务完美融合。您还可以使用它们为离线渠道创建内容，例如印刷目录（网络到印刷）。
 
-#### Demo (Community Edition)
-_Admin-URL_ (stable): [https://demo.pimcore.fun/admin/](https://demo.pimcore.fun/admin/)  
-_Admin-URL_ (dev): [https://11.x-dev.pimcore.fun/admin/](https://11.x-dev.pimcore.fun/admin/)  
-_Username_: `admin`  
-_Password_: `demo`
+#### 演示 (社区版)
+_用户名_：`admin`  
+_密码_：`demo`
 
-## Getting Started
-_**Only 3 commands to start!**_ 😎
+## 开始使用
+_**只需 3 个命令即可开始！**_ 😎
 ```bash
 COMPOSER_MEMORY_LIMIT=-1 composer create-project pimcore/skeleton ./my-project
 cd ./my-project
 ./vendor/bin/pimcore-install
 ```
 
-This will install an empty skeleton application, 
-but we're also offering a demo package for your convenience - of course also with 3 commands 💪
-[Click here for more installation options and a detailed guide](https://pimcore.com/docs/platform/Pimcore/Getting_Started/)
-
-
-## Supported Versions and LTS
-
-Community support of a minor version of Pimcore packages ends with the release of the next minor version. After end of
-community support, long term supported is provided in combination with enterprise edition.
-
-LTS versions are based on our [Platform Version Releases](https://pimcore.com/docs/platform/Platform_Version/) which cover
-the Core Framework as well as extensions provided by Pimcore. For details on versions and their support state see our
-[documentation](https://pimcore.com/docs/platform/Platform_Version/Platform_Version_Releases/).
-
-
-## Copyright and License 
-Copyright: [Pimcore](https://www.pimcore.org) GmbH
-For licensing details please visit [LICENSE.md](LICENSE.md)
+这将安装一个空的骨架应用程序，我们还提供了一个便捷的演示包——当然也是 3 个命令 💪
